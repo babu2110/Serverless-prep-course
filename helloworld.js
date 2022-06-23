@@ -1,5 +1,7 @@
 // code your `hello` function here!
 
-function hello = "Hello World";
+function hello() {
+	return "Hello World";
+}
 
-hello;
+console.log(hello());
