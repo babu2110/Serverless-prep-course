@@ -10,5 +10,5 @@ function running_late(date) {
 	return "It is still early!";
 }
 
-exports.running_late = running_late();
+module.exports = running_late();
 
