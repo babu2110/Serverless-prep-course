@@ -9,4 +9,5 @@ function find_max(arr) {
     });
     return maxEl;
 }
+
 exports.find_max = find_max;
