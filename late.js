@@ -2,7 +2,7 @@
 
 function running_late(date) {
 	if(date.indexOf("PM") != -1) {
-		let getHour = date.substring(0, date.indexOf(':'));
+		let getHour = parseInt(date.substring(date.indexOf(':')-2, date.indexOf(':')));
 		if(10 <= parseInt(getHour) && 12 >= parseInt(getHour)){
 			return "It is late!";
 		}
